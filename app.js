@@ -47,7 +47,7 @@ const disableboxes=()=>{
 const enableboxes=()=>{
  for(let box of boxes){
     box.disabled=false;
-    //box.innerText="";
+    box.innerText="";
  }
 }
 const showwin=(winner)=>{
@@ -77,6 +77,7 @@ const checkwin=()=>{
 };
 newgamebtn.addEventListener("click",resetgame);
 resetbtn.addEventListener("click",resetgame);
+
 
 
 
