@@ -51,7 +51,7 @@ const enableboxes=()=>{
  }
 }
 const showwin=(winner)=>{
-    console.log(msg.innerText=`congratulations!! bittu, Winner is ${winner}`);
+    console.log(msg.innerText=`congratulations!, Winner is ${winner}`);
     
     
    msgcont.classList.remove("hide");
@@ -77,6 +77,7 @@ const checkwin=()=>{
 };
 newgamebtn.addEventListener("click",resetgame);
 resetbtn.addEventListener("click",resetgame);
+
 
 
 
